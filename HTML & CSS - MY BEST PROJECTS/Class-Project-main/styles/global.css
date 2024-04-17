@@ -1,0 +1,406 @@
+/*Start Reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-size: 1.6rem;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*End Reset*/
+
+:root {
+    font-family: 'Inter', sans-serif;
+
+    /*Neutral colors*/
+    --neutral-black: #263238;
+    --neutral-d-grey: #4D4D4D;
+    --neutral-grey: #717171;
+    --neutral-l-grey: #89939E;
+    --neutral-grey-blue: #ABBED1;
+    --neutral-silver: #e0e6eb;
+    --neutral-white: #FFFFFF;
+
+    /*Action*/
+    --warning: #FBC02D;
+    --error: #E53835;
+
+    /*Primary*/
+    --brand-primary: #0466C8;
+    --brand-secondary: #263238;
+    --brand-info: #21B727;
+
+    --shade-s-1: #0353A4;
+    --shade-s-2: #023E7D;
+    --shade-s-3: #002855;
+    --shade-s-4: #001845;
+    --shade-s-5: #001233;
+
+    /*Font size*/
+    font-size: 62.5%;
+    --fs-headline-one: 6.4rem;
+    --fs-headline-two: 3.6rem;
+    --fs-headline-three: 2.8rem;
+    --fs-headline-four: 2rem;
+
+    --fs-body-one: 1.8rem;
+    --fs-body-two: 1.6rem;
+    --fs-body-three: 1.4rem;
+    --fs-body-four: 1.2rem;
+
+    /*Font weight*/
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+
+    /*Line height*/
+    --lh-body-one: 2.8rem;
+    --lh-body-two: 2.4rem;
+    --lh-body-three: 2rem;
+    --lh-body-four: 1.6rem;
+
+    --lh-headline-one: 7.6rem;
+    --lh-headline-two: 4.4rem;
+    --lh-headline-three: 3.6rem;
+    --lh-headline-four: 2.8rem;
+}
+
+body {
+    background: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: var(--fw-semibold);
+}
+
+h1 {
+    font-size: var(--fs-headline-one);
+    line-height: var(--lh-headline-one);
+}
+
+h2 {
+    font-size: var(--fs-headline-two);
+    line-height: var(--lh-headline-two);
+}
+
+h3 {
+    font-size: var(--fs-headline-three);
+    line-height: var(--lh-headline-three);
+}
+
+h4 {
+    font-size: var(--fs-headline-four);
+    line-height: var(--lh-headline-four);
+}
+
+.body-medium-one,
+.body-medium-two,
+.body-medium-three,
+.body-medium-four {
+    font-weight: var(--fw-medium);
+}
+
+.body-regular-one,
+.body-regular-two,
+.body-regular-three,
+.body-regular-four {
+    font-weight: var(--fw-regular);
+}
+
+.body-regular-one,
+.body-medium-one {
+    font-size: var(--fs-body-one);
+    line-height: var(--lh-body-one);
+}
+
+.body-regular-two,
+.body-medium-two {
+    font-size: var(--fs-body-two);
+    line-height: var(--lh-body-two);
+}
+
+.body-regular-three,
+.body-medium-three {
+    font-size: var(--fs-body-three);
+    line-height: var(--lh-body-three);
+}
+
+.body-regular-four,
+.body-medium-four {
+    font-size: var(--fs-body-four);
+    line-height: var(--lh-body-four);
+}
+
+th {
+    font-size: var(--fs-headline-three);
+    line-height: var(--lh-headline-one);
+    font-weight: bold;
+    color: #263238;
+}
+
+tr {
+    text-align: center;
+    font-size: var(--fs-body-two);
+    color: #0466C8;
+}
+
+td {
+    text-decoration: underline;
+}
+
+/*INFORMATION IMAGE SVG*/
+
+.info-flex {
+    display: flex;
+    gap: 15px;
+}
+
+.info-img {
+    cursor: help;
+}
+
+/* Bubble box styles */
+.bubble-box {
+    position: absolute;
+    background-color: var(--brand-primary); /* Change background color to blue */
+    -webkit-text-fill-color: white; /* Set text color to white */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    max-width: 300px;
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+/* Adjust the max-width property to control the maximum width of the bubble box */
+.info-flex .bubble-box p {
+    max-width: 200px; /* Set a maximum width for better readability */
+    margin: 0; /* Remove default margin to prevent unwanted spacing */
+    word-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1A1A1A;
+}
+body.dark-mode .side-navbar, body.dark-mode .footer-option {
+    background-color: #263238;
+}
+body.dark-mode .vrepairheader h2,
+body.dark-mode .cstatusheader h2,
+body.dark-mode .registerItem h2,
+body.dark-mode .warranty-nav h1,
+body.dark-mode .warranty-nav p
+{
+    color: White;
+}
+
+
+body.dark-mode .one-item-list
+{
+    background-color: #1A1A1A;
+}
+body.dark-mode .total-flex,
+body.dark-mode .header-flex
+{
+    background-color: rgb(53, 53, 53);
+}
+
+body.dark-mode .logo h3{
+    color: var(--brand-primary);
+}
+body.dark-mode .profile-tab h4{
+    color: white;
+}
+
+
+body.dark-mode .customersh2{
+    color: var(--neutral-silver);
+}
+
+
+body.dark-mode .alltogether{
+    background-color: #263238;
+}
+
+body.dark-mode #searchcustomer{
+    background-color: #263238;
+}
+
+body.dark-mode .editrepairh2 h2{
+    color: var(--neutral-silver);
+}
+
+
+body.dark-mode .stats-card  p {
+    color: black;
+}
+
+body.dark-mode .stats-card  h3 {
+    color: black;
+}
+
+body.dark-mode label{
+    color: white;
+}
+
+body.dark-mode{
+    --neutral-grey: white;
+    --neutral-black: white;
+}
+
+
+#toastContainer {
+    position: absolute;
+    right: 100px;
+    background-color: var(--neutral-silver);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+}
+#toastContainer {
+    display: none;
+}
+#toastBtn {
+    background: none;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+#toastBtn img{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -15px;
+    cursor: pointer;
+}

@@ -1,0 +1,217 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    padding-top: 4.5rem;
+}
+
+.editrepairh2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+h2 {
+    color: var(--shade-s-5, #001233);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+/*FORM ONE ; FORM TWO; FORM THREE*/
+
+
+
+.formone,
+.formtwo,
+.formthree {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.oneone,
+.onetwo,
+.onethree,
+.twoone,
+.twotwo,
+.threeone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.repairnametext,
+.equipmenttext,
+.techtext,
+.costtext,
+.datetext,
+.desctext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#jeffsbackground,
+#markbackground,
+#hundredbackground {
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.alltogether {
+    display: flex;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    margin-top: 1.5rem;
+    padding-left: 20px;
+    
+}
+
+#searchquipment {
+    margin-top: 0;
+    padding-left: 20px;
+    color: var(--neutral-black);
+}
+
+#markbackground {
+    color: var(--neutral-black, #263238);
+}
+
+#datebackground {
+    margin-top: 15px;
+    border: none;
+    display: flex;
+    padding: 12px 18px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-black, #263238);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#descriptionbackground {
+    display: flex;
+    height: 97px;
+    padding: 12px 18px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-black, #263238);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    height: 97px;
+}
+
+.btnsave {
+    border-color: #0466C8;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: var(--brand-primary, #0466C8);
+    color: var(--light-light-100, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btnsave:hover {
+    cursor: pointer;
+}
+
+#searchquipment::placeholder {
+    color: black;
+}
+.side-navbar .selected p{
+    color: var(--brand-primary);
+}
+
+.selected path, .selected rect {
+    stroke: var(--brand-primary);
+}
+
+#number-checkpoint {
+    position: absolute;
+    color: white;
+    background-color: var(--brand-primary);
+    border-radius: 50%;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+
+/*Dark mode */
+
+
+
+body.dark-mode #jeffsbackground{
+    background-color:  #263238;
+}
+
+body.dark-mode  #descriptionbackground{
+    background-color:  #263238;
+    color: white;
+}
+
+body.dark-mode #datebackground{
+    background-color:  #263238;
+    color: #FFF;
+}
+
+body.dark-mode #markbackground{
+    background-color: #263238;
+}
+
+body.dark-mode #markbackground option{
+    color: white;
+}
+
+body.dark-mode #markbackground {
+    color: white;
+}

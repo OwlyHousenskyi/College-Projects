@@ -1,0 +1,324 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.vrepairheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/*FORM ONE*/
+
+.repairform {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+/*FIRST FORM ELEMENT OF FIRST FORM ON THE PAGE*/
+
+.oneone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.repairnametext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.jeffbackground {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+/*SECOND FORM ELEMENT OF FIRST FORM ON THE PAGE*/
+
+.onetwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.toberepairedtext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*ELEMENT INSIDE THE ELEMENT INSIDE THE ELEMENT SUKA BLYAT */
+
+.lmowerbackground,
+.searchflex {
+    display: flex;
+    padding: 6px 18px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*THIRD FORM ELEMENT OF FIRST FORM ON THE PAGE*/
+
+.onethree {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.techniciantext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.markbackground {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*FORM TWO*/
+
+.costform {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+/*FIRST FORM ELEMENT OF SECOND FORM ON THE PAGE*/
+
+.twoone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.repaircosttext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hundredbackground {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*SECOND FORM ELEMENT OF SECOND FORM ON THE PAGE*/
+
+.twotwo {
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.datetimetext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.timebackground {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*FORM THREE*/
+
+.descriptionform {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 35px;
+    flex: 1 0 0;
+    width: 100%;
+}
+
+
+.descriptionform div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionform .table-view {
+    width: 100%;
+}
+
+/*FIRST ONLY FORM ELEMENT OF THIRD FORM ON THE PAGE*/
+
+.desctext {
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.descbackground {
+    display: flex;
+    height: 150px;
+    width: 600px;
+    padding: 12px 18px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*BUTTONS*/
+
+.btnnavigation {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.editbtn,
+.changebtn {
+    border-color: #0466C8;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: var(--brand-primary, #0466C8);
+    color: var(--light-light-100, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.editbtn:hover,
+.changebtn:hover{
+    cursor: pointer;
+}
+
+.side-navbar .selected p{
+    color: var(--brand-primary);
+}
+
+.selected path, .selected rect {
+    stroke: var(--brand-primary);
+}
+
+/* dark side */
+body.dark-mode .jeffbackground {
+    background: #263238;
+}
+
+body.dark-mode .markbackground  {
+    background: #263238;
+}
+
+body.dark-mode .timebackground  {
+    background: #263238;
+}
+
+
+
+body.dark-mode .descbackground {
+    background: #263238;
+}

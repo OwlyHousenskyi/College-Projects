@@ -1,0 +1,486 @@
+/*FIRST PAGE*/
+
+#your-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.title {
+    width: 304.59px;
+    height: 44px;
+    gap: 30px;
+    display: flex;
+}
+
+.Vector {
+    stroke-width: 3px;
+    stroke: var(--neutral-grey, #717171);
+}
+
+.Headline2 {
+    width: 260;
+    height: 44px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: Inter;
+    color: var(--shade-s-5, #001233);
+}
+
+.Configuration Nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+    align-self: stretch;
+    border-bottom: 2px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Configuration {
+    width: 100%;
+}
+
+.Configuration nav a {
+    padding-bottom: 15px;
+}
+
+.Profile-nav,
+.Address-nav,
+.Manufacturers-nav,
+.Colors-nav,
+.Technician-nav {
+    color: var(--neutral-grey, #717171);
+    /* Body/Medium/Body 1 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.Address-nav:hover,
+.Manufacturers-nav:hover,
+.Colors-nav:hover,
+.Profile-nav:hover,
+.Technician-nav:hover {
+    color: var(--brand-primary, #0466C8);
+    border-bottom: 5px solid var(--brand-primary, #0466C8);
+}
+
+.Configs-option-1 {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Configs-option-1:hover,
+.Configs-option-2:hover {
+    border-bottom: 1px solid var(--brand-primary, #0466C8);
+}
+
+.Cities {
+    color: var(--neutral-grey, #717171);
+    width: 107px;
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Cities:hover,
+.Provinces:hover {
+    color: var(--brand-primary, #0466C8);
+}
+
+.Configs-option-2 {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Provinces {
+    color: var(--neutral-grey, #717171);
+    width: 107px;
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+/*SECOND PAGE-THIRD PAGE*/
+
+.Cities-Headline4,
+.Provinces-Headline4,
+.Manufacturers-Headline4,
+.Colors-Headline4,
+.h4-add-new-manufacturer,
+.h4-add-new-color {
+    color: var(--shade-s-5, #001233);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* Heading/Headline 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+.Raw-layout1 {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-self: stretch;
+    border-bottom: 2px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+#cname,
+#mname,
+#colname,
+#mname-text,
+#colname-text {
+    color: var(--neutral-grey, #717171);
+    border: none;
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+/*CITY EXAMPLE DIV'S*/
+
+.Toronto-div,
+.Ontario-div,
+.Daeewo-div,
+.Red-div,
+.Rick-div,
+.Charlie-div {
+    margin-bottom: 15px;
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Toronto-text,
+.Ontario-text,
+.Daeewo-text,
+.Red-text,
+.Rick-text {
+    color: var(--neutral-black, #263238);
+
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+.Catharines-div,
+.Alberta-div,
+.Caterpillar-div,
+.Green-div {
+    margin-bottom: 15px;
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Catharines-text,
+.Alberta-text,
+.Caterpillar-text,
+.Green-text {
+    color: var(--neutral-black, #263238);
+
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+.Welland-div,
+.British-div,
+.Liebherr-div,
+.Blue-div {
+    margin-bottom: 15px;
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Welland-text,
+.British-text,
+.Liebherr-text,
+.Blue-text {
+    color: var(--neutral-black, #263238);
+
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+.Calgary-div,
+.Quebec-div,
+.Komatsu-div,
+.Yellow-div {
+    margin-bottom: 35px;
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.Calgary-text,
+.Quebec-text,
+.Komatsu-text,
+.Yellow-text {
+    color: var(--neutral-black, #263238);
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+/*DONE DIV'S...CONTINUE WITH OTHER STUFF*/
+
+.Take-Out {
+    width: 24px;
+    height: 24px;
+}
+
+/*PAGING*/
+
+.btn-pages {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+}
+
+#add-new-btn {
+    color: var(--light-light-100, #FFF);
+    text-align: center;
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: var(--brand-primary, #0466C8);
+    border-style: none;
+    cursor: pointer;
+
+    margin-top: 0;
+}
+
+.Selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.double-left {
+    width: 74px;
+    height: 24px;
+    fill: var(--neutral-l-grey, #89939E);
+}
+
+.paging-bar {
+    color: var(--neutral-d-grey, #4D4D4D);
+    text-align: center;
+
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.double-right {
+    width: 74px;
+    height: 24px;
+    fill: var(--neutral-l-grey, #89939E);
+}
+
+/*FOURTH-FIFTH PAGE*/
+
+.h4-add-new-city,
+.h4-add-new-province {
+    color: var(--shade-s-5, #001233);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* Heading/Headline 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+.Form-Control {
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    margin-bottom: 35px;
+}
+
+.ctn-name,
+.pr-name,
+.color-name {
+    color: var(--neutral-grey, #717171);
+
+    /* Body/Regular/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+#ctname-text,
+#prname-text,
+#mname-text,
+#colname-text {
+    display: flex;
+    width: 304px;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+    border-style: none;
+}
+
+#ctname-text::placeholder,
+#prname-text::placeholder {
+    color: var(--neutral-l-grey, #89939E);
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+/*ALL SET PAGE*/
+
+.all-set-h2 {
+    margin-top: 35px;
+    width: 260;
+    height: 44px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: Inter;
+    color: var(--shade-s-5, #001233);
+    border-bottom: 2px solid var(--neutral-grey-blue, #ABBED1);
+}
+
+.side-navbar .selected p{
+    color: var(--brand-primary);
+}
+
+.selected path, .selected rect {
+    stroke: var(--brand-primary);
+}
+
+/* Datk mode */
+body.dark-mode .Headline2{
+    color: white;
+}
+
+body.dark-mode #ctname-text {
+    background-color: #263238;
+}
+body.dark-mode #prname-text{
+    background-color: #263238;
+}
+body.dark-mode #mname-text{
+    background-color: #263238;
+}
+body.dark-mode #colname-text{
+    background-color: #263238;
+}
+
+
+body.dark-mode .h4-add-new-city,
+.h4-add-new-province,.h4-add-new-manufacturer,
+.h4-add-new-color{
+    color: white;
+}
+
+body.dark-mode 
+.Provinces-Headline4
+{
+    color: white;
+}
+body.dark-mode .Cities-Headline4{
+    color: white;
+}
+body.dark-mode .Manufacturers-Headline4{
+    color: white;
+}
+body.dark-mode .Colors-Headline4{
+    color: white;
+}

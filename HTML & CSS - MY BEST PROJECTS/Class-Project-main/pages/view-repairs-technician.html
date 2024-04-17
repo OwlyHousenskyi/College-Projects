@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Repairs</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/view-repairs.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="mobile-header">
+            <nav>
+                <a href="#"><img src="../assets/icons/burger-menu.svg" alt="burger menu"></a>
+                <div class="logo">
+                    <img src="../assets/images/logo-one.svg" alt="logo">
+                    <h3>Logo</h3>
+                </div>
+                <a href="#"><img src="../assets/icons/profile.svg" alt="profile icon"></a>
+            </nav>
+        </header>
+
+        <section class="side-navbar">
+            <div class="logo">
+                <img src="../assets/images/logo-two.svg" alt="logo">
+                <h3>Fix<span style="color: var(--brand-primary);">Ninja</span></h3>
+            </div>
+
+            <div class="footer-menu">
+                <a href="#" class="footer-option">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                        <path d="M18.5 14L19.7929 12.7071C20.1834 12.3166 20.1834 11.6834 19.7929 11.2929L18.5 10"
+                            stroke="#717171" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M19.5 12L13.5 12M4.5 17.2663V7.26633M16.5 17.2663C16.5 18.3709 15.6046 19.2663 14.5 19.2663H10.5M16.5 7.26633C16.5 6.16176 15.6046 5.26633 14.5 5.26633H10.5M5.3906 19.8601L7.3906 21.1934C8.71971 22.0795 10.5 21.1267 10.5 19.5293V5.00336C10.5 3.40597 8.71971 2.45319 7.3906 3.33926L5.3906 4.6726C4.8342 5.04353 4.5 5.66799 4.5 6.3367V18.196C4.5 18.8647 4.8342 19.4891 5.3906 19.8601Z"
+                            stroke="#717171" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                    <p class="body-medium-two">Logout</p>
+                </a>
+            </div>
+        </section>
+        <section class="application-body">
+            <div class="container">
+                <header class="desktop-header">
+                    <div>
+                        <a href="#" id="darkModeSwitch">
+                            <p >Switch to dark</p>
+                            <img src="../assets/icons/half-moon.svg" alt="half moon icon">
+                        </a>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="new-notifications-icon"></div>
+                            <img src="../assets/icons/bell.svg" alt="bell icon">
+                            <img src="../assets/images/profile-pic.svg" alt="profile picture">
+                            <div class="profile-tab">
+                                <h4>Edward Anderson</h4>
+                                <p class="body-medium-three">Technician</p>
+                            </div>
+                            <img src="../assets/icons/arrow-down.svg" alt="arrow down icon">
+                        </div>
+                                                <button id="toastBtn" onclick="showToast()"><img src="../assets//icons/help.svg" alt="help icon"></button>
+                        <div id="toastContainer" class="toast-container">Help message</div>
+                    </div>
+                    <hr>
+                </header>
+                <main class="main">
+
+                    <div class="vrepairheader">
+                        <a href="../pages/repair-list-thecnician.html"><img src="../assets/icons/arrow-left.svg"
+                                alt="arrow left"></a>
+                        <h2>Repair details</h2>
+                    </div>
+
+                    <form class="repairform">
+                        <div class="oneone">
+                            <p class="repairnametext">Name of the repair</p>
+                            <p class="jeffbackground">Jeff's lawn mower</p>
+                        </div>
+                        <div class="onethree">
+                            <p class="techniciantext">Technician</p>
+                            <p class="markbackground">Mark</p>
+                        </div>
+                        <div class="twotwo">
+                            <p class="datetimetext">Start date/time</p>
+                            <p class="timebackground">08/11/2023 11:20</p>
+                        </div>
+                    </form>
+
+                    <form class="descriptionform">
+                        <div>
+                            <p class="desctext">Description</p>
+                            <p class="descbackground">Repair the blades, new paint job</p>
+                        </div>
+
+                        <div class="table-view repairs-table-view">
+                            <label for="">Status log</label>
+                            <table>
+                                <tbody>
+                                    <tr id="row-1">
+                                        <td id="status-title">Status</td>
+                                        <td>Start date</td>
+                                        <td>End date</td>
+                                        <td>Edit</td>
+                                        <td>Description</td>
+                                    </tr>
+                                    <tr id="row-2">
+                                        <td id="status-title">Complete</td>
+                                        <td>23/11/2023 2:30PM</td>
+                                        <td>23/11/2023 5:30PM</td>
+                                        <td><a href="change-status-technician.html">Edit</a></td>
+                                        <td><a href="status-description-thecnician.html">Description</a></td>
+                                    </tr>
+                                    <tr id="row-3">
+                                        <td id="status-title">In Progress</td>
+                                        <td>22/11/2023 2:30PM</td>
+                                        <td>23/11/2023 1:30PM</td>
+                                        <td><a href="">Edit</a></td>
+                                        <td><a href="status-description-thecnician.html">Description</a></td>
+                                    </tr>
+                                    <tr id="row-4">
+                                        <td id="status-title">In Progress</td>
+                                        <td>20/11/2023 2:30PM</td>
+                                        <td>22/11/2023 1:30PM</td>
+                                        <td><a href="">Edit</a></td>
+                                        <td><a href="status-description-thecnician.html">Description</a></td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                    </form>
+                </main>
+
+                <footer>
+                    <div class="btnnavigation">
+                        <a href="../pages/change-status-technician.html"><button class="changebtn">Change Status</button></a>
+                    </div>
+                </footer>
+        </section>
+    </div>
+    <script src="../javascript/register-item.js"></script>
+
+</body>

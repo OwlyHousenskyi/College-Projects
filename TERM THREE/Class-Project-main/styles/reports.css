@@ -1,0 +1,295 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    gap: 35px;
+    margin-bottom: 100px;
+}
+
+input,
+textarea {
+    font-family: 'inter', sans-serif;
+}
+
+.warranty-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.warranty-header {
+    color: var(--shade-s-5, #001233);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.search-equipment-all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.p-text {
+    color: var(--neutral-grey, #717171);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#lawn-mower-inputtext {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+#lawn-mower-inputtext::placeholder {
+    color: var(--neutral-l-grey, #89939E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.startdate-enddate-all {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.startdate-enddate-all div,
+.startdate-enddate-all div input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.starttime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.endtime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#select-start-input {
+    height: 50px;
+    border: none;
+    display: flex;
+    padding: 12px 18px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+#select-start-input::placeholder {
+    color: var(--neutral-black, #263238);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#select-end-input {
+    height: 50px;
+    border: none;
+    display: flex;
+    padding: 12px 18px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+#select-end-input::placeholder {
+    color: var(--neutral-black, #263238);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.description-all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+#desc-text-area {
+    border: none;
+    display: flex;
+    height: 97px;
+    padding: 12px 18px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+#desc-text-area::placeholder {
+    color: var(--neutral-l-grey, #89939E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.print-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: var(--brand-primary, #0466C8);
+    color: var(--light-light-100, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: var(--brand-primary, #0466C8);
+
+}
+
+.print-btn:hover {
+    cursor: pointer;
+}
+
+/*VIEW REPORT CODE */
+
+.date-text {
+    color: var(--shade-s-5, #001233);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.header-flex {
+    display: flex;
+    border-bottom: 1px solid var(--neutral-grey-blue, #ABBED1);
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-black, #263238);
+}
+
+
+.manufacturer-header {
+    display: flex;
+    height: 25px;
+    padding: 13px 25px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.cost-header {
+    margin-left: 50px;
+    display: flex;
+    height: 25px;
+    padding: 13px 25px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.warranty-list {
+    display: flex;
+    margin-left: 0px auto;
+    margin-right: 0px auto;
+
+}
+
+.right-side {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.one-item-list {
+    background: var(--neutral-white, #FFF);
+    padding: 10px 25px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    color: var(--neutral-grey, #717171);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.total-flex {
+    display: flex;
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--neutral-black, #263238);
+}
+
+.total-header {
+    display: flex;
+    height: 25px;
+    padding: 13px 25px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.price-header {
+    margin-left: 50px;
+    display: flex;
+    height: 25px;
+    padding: 13px 25px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+/* Dark mode */
+
+body.dark-mode #select-start-input{
+    background-color: #263238;
+    color: white;
+}
+
+body.dark-mode #select-end-input{
+    background-color: #263238;
+    color: white; 
+}
