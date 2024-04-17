@@ -1,0 +1,1 @@
+During my studies in college, I have created different projects from college and some for my portfolio. In this repository, you can find my done assignmetns, labs, tests, apps, and websites (raw and full-stack). Download and take a look :)
