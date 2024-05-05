@@ -1,1 +1,1 @@
-During my studies in college, I have created different projects from college and some for my portfolio. In this repository, you can find my assignmetns, labs, tests, apps, and websites (raw and full-stack). Check my branches, download and take a look :)
+During my studies in college, I have created different projects from college and some for my portfolio. In this repository, you can find my assignmetns, labs, tests, apps, and websites (raw and full-stack). Check my branches, download, and take a look :)
